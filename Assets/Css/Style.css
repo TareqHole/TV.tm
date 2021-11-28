@@ -1,0 +1,126 @@
+html::-webkit-scrollbar{
+    width: 8px;
+}
+html::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, rgb(132, 130, 212));
+    border-radius: 6px;
+}
+html::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, rgb(188, 187, 247));
+}
+html::-webkit-scrollbar-track{
+    background-color: rgb(4, 4, 8);
+}
+body{
+
+    background-image: url(/Assets/Img/BackGround.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#ListMenu{
+
+    color: rgb(39, 53, 247);
+    background-color: rgb(10, 8, 19);
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+    text-align: center;
+}
+li{
+
+    font-size: 30px;
+
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(181, 184, 238);
+}
+a:hover{
+    color: rgb(124, 116, 201);
+}
+#MovieLogo{
+    width: 200px;
+    height: 300px;
+    border-radius: 8%;
+}
+#MovieLogo:hover{
+    width: 208px;
+    height: 312px;
+    border-radius: 6%;
+    background: linear-gradient(transparent, rgb(153, 147, 226));
+}
+h1{
+    font-size: 18px;
+    color: rgb(182, 186, 238);
+}
+h2{
+    font-size: 42px;
+    color: rgb(255, 156, 62);
+}
+
+.Tnew{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(58, 225, 255));
+}
+New{
+    position: absolute;
+    width: 208px;
+    height: 34px;
+    border-radius: 2%;
+    background: rgb(39, 205, 255);
+
+    font-size: 30px;
+    color: rgb(180, 172, 228);
+}
+
+.Tcomson{
+    border: 5px solid transparent;
+    background: linear-gradient(transparent, rgb(201, 66, 133));
+}
+Comsn{
+    position: absolute;
+    width: 208px;
+    height: 34px;
+    border-radius: 2%;
+    background: rgb(231, 45, 154);
+
+    font-size: 30px;
+    color: rgb(148, 140, 221);
+}
+
+.Tgood{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(22, 255, 61));
+}
+.Tepic{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(166, 7, 240));
+}
+.Tlegen{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(133, 0, 0),rgb(238, 138, 7));
+}
+.Thorr{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(46, 4, 4));
+}
+.Tcomd{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(188, 188, 224));
+}
+.Tacti{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(226, 7, 7));
+}
+.Tadvn{
+    border: 3px solid transparent;
+    background: linear-gradient(transparent, rgb(19, 57, 230));
+}
+
+.Toth{
+    border: 2px solid transparent;
+    background: linear-gradient(transparent, rgb(0, 0, 0));
+}
